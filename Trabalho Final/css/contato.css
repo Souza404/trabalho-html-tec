@@ -1,0 +1,76 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+}
+
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+form {
+	margin: 40px 0;
+}
+
+form label{
+	display:block;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.formulario {
+    padding-left: 600px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+    display: inline;
+	width: 190px;
+	padding: 15px;
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s all;
+	cursor: pointer;
+	text-decoration: none;
+    margin-left: 250px;
+}
+
+.enviar:hover {
+	background-color: deepskyblue;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.button{
+    text-decoration: none;
+	width: 190px;
+	padding: 15px;
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s all;
+	cursor: pointer;
+    display: inline;
+    margin-left: 850px;
+}
+
+.button:hover {
+	background-color: deepskyblue;
+	cursor: pointer;
+	transform: scale(1.05);	
+}

@@ -1,0 +1,120 @@
+body {
+    background-color: darkgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.G-1 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 25px;
+}
+
+.btn-entrar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+	border: none;
+	width: 80px;
+	color: white;
+	font-size: 12px;
+}
+
+.btn-entrar:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: darkgray;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 7px;
+}
+
+.principal {
+    margin-top: 150px;
+}
+
+.secundario {
+    margin-top: 650px;  
+
+}
+.desconto {
+    display: block;
+    margin-left: 700px;
+    width: 500px;
+}
+
+.setas {
+    display: block;
+    width: 90px;
+    margin-left: 900px;
+    margin-top: 75px;
+}
+
+h1,h2{
+    margin-left: 480px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.btn-vendas {
+    display: inline;
+    margin-left: 820px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+	width: 90px;
+	color: white;
+	font-size: 12px;
+    text-decoration: none;
+    border-radius: 9px;
+    padding: 15px 55px;
+}
+
+.btn-vendas:hover {
+	cursor: pointer;
+	transform: scale(1.5);
+    color: darkgray;
+}
+
+.ul-jogos {
+    display: block;
+    margin-left: 450px;
+}
+
+.lista {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 2.5px; 
+}
+
+
+.jogo{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    width: 325px;
+}
+
+.jogo:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 15px;
+}

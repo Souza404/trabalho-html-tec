@@ -1,0 +1,62 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    background-color: darkgrey;	
+}
+
+.tela-login {
+	background-color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 80px;
+	border-radius: 15px;
+	color: white;
+}
+
+.input {
+	padding: 15px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	border-radius: 7px;
+}
+
+.enviar {
+	width: 100%;
+	padding: 15px;
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s all;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.enviar:hover {
+	background-color: deepskyblue;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.button{
+	width: 100%;
+	padding: 15px;
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: deepskyblue;
+	cursor: pointer;
+	transform: scale(1.05);	
+}
